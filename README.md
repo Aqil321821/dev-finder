@@ -1,3 +1,10 @@
+
+
+# Abou Project
+This Project is based on React , in this we use a third party library called "daisy-ui" .
+In this project we can find users on Github and can see their repos and info.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
