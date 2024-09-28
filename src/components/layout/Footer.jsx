@@ -9,7 +9,7 @@ function Footer() {
         <FaGithub size={45} />
         <p className='mt-2'>
           Under Supervision of{' '}
-          <a href='https://www.linkedin.com/in/muhammad-fareed-soyal/?originalSubdomain=pk' className='italic font-semibold' style={{ color: ' #0077B5' }} target='_blank'>
+          <a href='https://www.linkedin.com/in/muhammad-fareed-soyal/?originalSubdomain=pk' className='italic font-semibold' style={{ color: ' #0077B5' }} target='_blank' rel="noreferrer">
             Sir Fareed Soyal{' '}
           </a>{' '}
         </p>
