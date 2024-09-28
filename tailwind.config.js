@@ -4,8 +4,20 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'], // Add Roboto as a default sans font
+      },
+    },
+  },
+  daisyui: {
+    themes: [
+       "dracula", 
+      "light", 
+      "dark", 
+      "cupcake",
+      "dim"
+    ],
   },
   plugins: [require('daisyui')],
 }
-

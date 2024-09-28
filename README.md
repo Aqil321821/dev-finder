@@ -1,7 +1,7 @@
 
 
-# Abou Project
-This Project is based on React , in this we use a third party library called "daisy-ui" .
+# About Project
+This Project is based on React , in this we use a third party library called "daisy-ui"  https://daisyui.com/
 In this project we can find users on Github and can see their repos and info.
 
 
