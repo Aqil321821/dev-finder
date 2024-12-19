@@ -2,11 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  color: white;
-}
 body {
   font-family: 'Open Sans', serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
+}
+
+.custom-card-image .card.image-full:before {
+  border-radius: 0.5rem;
+  opacity: 0.4;
+}
+#root > div > main > div > div.w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100.stats > div > div:nth-child(1) > div.stat-figure.text-secondary > svg > path,
+#root > div > main > div > div.w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100.stats > div > div:nth-child(2) > div.stat-figure.text-secondary > svg > path,
+#root > div > main > div > div.w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100.stats > div > div:nth-child(3) > div.stat-figure.text-secondary > svg > path {
+  color: rgb(154, 224, 121);
+}
+
+*:not(.text-secondary) {
+  color: white;
+}
+
+#root > div > main > div.grid.grid-cols-1.xl\:grid-cols-2.lg\:grid-cols-2.md\:grid-cols-2.mb-8.gap-8 > div > form > div > div > input {
+  color: gray;
 }
