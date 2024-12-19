@@ -12,7 +12,6 @@ function UserItem({ user: { login, avatar_url } }) {
           </div>
         </div>
 
-        
         <div>
           <h2 className='card-title'>{login.charAt(0).toUpperCase() + login.slice(1)}</h2>
 

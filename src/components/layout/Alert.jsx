@@ -13,9 +13,9 @@ const Alert = () => {
           </svg>
         )}
 
-        <p className='flex-1 text-base font-semibold leading-7'>
+        <div className='flex-1 text-base font-semibold leading-7'>
           <strong>{alert.msg}</strong>
-        </p>
+        </div>
       </p>
     )
   );
